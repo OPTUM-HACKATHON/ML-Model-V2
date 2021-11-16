@@ -37,27 +37,18 @@ You need to send a POST Request at /api with a sample JSON body as shown below :
 ```
 {
     "key" : "rwg2nilbso05ak918xcz",
-    "No. of Allergies" : 2,
-    "No. of Conditions" : 13,
-    "ambulatory" : 31,
-    "wellness" : 4, 
-    "outpatient" : 5,
-    "urgentcare" : 0,
-    "emergency" : 3,
-    "inpatient" : 1,
-    "TOTAL_CLAIM_COST" : 5683.04,
-    "DOSES" : 8 ,
-    "MEDICINE_COST" : 8820.09,
-    "MARITAL" : "S",
-    "RACE" : "white",
-    "ETHNICITY" : "nonhispanic",
-    "GENDER" : "F",
-    "COUNTY" : "Suffolk County" ,
-    "HEALTHCARE_EXPENSES" : 779464.29, 
-    "HEALTHCARE_COVERAGE" : 11713.81,
-    "OPERATIONS" : 103, 
-    "OPERATION_COST" : 437058.88
+    "ENCOUNTERS" : 44, 
+    "ENCOUNTER_DURATION" : 2917080,
+    "DOSES" : 8, 
+    "DISPENSES" : 30, 
+    "Total Course Duration" : 811, 
+    "PROCEDURES" : 103, 
+    "Allergies + Conditions" : 14,
+    "HEALTHCARE_EXPENSES + HEALTHCARE_COVERAGE" : 791178.1,
+    "TOTAL_CALCULATED_COST" : 451562.01
+
 }
+
 ```
 
 ## Deployment : 
